@@ -7,6 +7,7 @@ print('Bot is starting')
 
 def start_command(update, context):
 	update.message.reply_text('Hello, welcome to this bot')
+	update.message.reply_text('How may I help You?')
 
 def vaccine_command(update, context):
 	pin = '82'
